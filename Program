@@ -1,0 +1,19 @@
+namespace Base64_Study
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string temp1 = "rcBIkNA9XcndpFXILLl9zJ0hzRDZDa1UybyQOM0xfVQlwY2E1Yg1GbGhsVSpMX0NwVRJkNlFSZwxzf2wtRVdpbWNNTGJjQnkCb1J1SlBTSjUoBHEndXYCKFd/dhcvYDYtbXdPKRlydi9wIRYBa1M1d1RNYXdaR0wHREdDGFd3ZzdUKG0Qb1MGAgh2bzBVE08zRgtBPX08Nw=";
+            string temp2 = "MDVZwKmF+UgtNcEM5Ul9BUXNKVTcSRHkwY2xINQd0dBOcFU=";
+            int count = 419821;
+            var arr1 = Convert.FromBase64String(temp1);
+            var arr2 = Convert.FromBase64String(temp2);
+            
+            var input = "Hello World!";
+            var result = Convert.ToBase64String(input);
+            Console.ReadKey();
+        }
+
+    }
+}
